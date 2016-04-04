@@ -1,7 +1,11 @@
 #include <iostream>
+#include "binarytree.h"
 using std::cout;
 int main()
 {
-	cout<<"Bro this project is going to take forever, lets do this ish.\n";
+	binarytree<int> btree;
+	btree.insert(0);
+	btree.insert(1);
+	btree.insert(-1);
 	return 0;
 }
